@@ -160,3 +160,9 @@ body {
     display: inline-block;
     margin-top: 12px;
 }
+
+@media (max-width: 768px) {
+    .grid-2 {
+        grid-template-columns: 1fr;
+    }
+}
