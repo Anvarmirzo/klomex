@@ -1,0 +1,162 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+
+}
+
+body {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-image: linear-gradient(45deg, #f5d0e2, #FF7EBE, #F5D0E2);
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    border: 8px solid #fff;
+    padding: 16px;
+    margin: 0 16px 24px;
+    border-radius: 36px;
+    font-size: 32px;
+    gap: 24px;
+}
+
+.grid-2.bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-image {
+    width: 100%;
+    border-radius: 36px;
+    display: flex;
+}
+
+.text-uppercase {
+    display: block;
+    margin-top: 16px;
+    text-transform: uppercase;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.h-420 {
+    height: 420px;
+}
+
+.link-btn {
+    background-color: #930D44;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 16px;
+    width: auto;
+}
+
+.btn-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.footer {
+    font-size: 32px;
+}
+
+.inline-text {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.d-inline {
+    display: inline !important;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+.footer-text a {
+    color: #000;
+    transition: opacity 0.3s;
+}
+
+.footer-text a:hover {
+    opacity: 0.6;
+}
+
+.mt-12 {
+    display: inline-block;
+    margin-top: 12px;
+}
