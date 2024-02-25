@@ -165,4 +165,8 @@ body {
     .grid-2 {
         grid-template-columns: 1fr;
     }
+
+    .h-420 {
+        height: 260px;
+    }
 }
